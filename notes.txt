@@ -1,0 +1,75 @@
+Table of Contents :
+ 
+Basics of Java (No History, Data types, Operators, types of statements etc).
+High level of OOPs. JVM, JRE, GC,
+Exceptions
+Java Collection and Generics
+Annotations
+Enum
+Date and Time formating
+java.sql package and transaction, Connection, Prepared statement, DAO
+Java 8-11 features:
+Functional Interfaces
+Lambda
+Stream API
+default and static methods in Interfaces
+Importance of java 11 and key upgrade, OpenJDK
+All other updates made to Java 11
+
+
+Java is platform independent!
+             javac              java
+Mac OS -> myprogram.java -> myprogram.class (bytecode) -> (JVM Mac OS) -> Mac OS -> executed
+Linux OS -> myprogram.java -> myprogram.class (bytecode) -> (JVM Linux OS) -> Linux OS -> executed
+Windows OS -> myprogram.java -> myprogram.class (bytecode) -> (JVM Windows OS) -> Windows OS ->  executed
+
+Java OOP Language
+
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+Secure!
+
+Distributed!
+
+Multithreaded! -> use CPU and RAM at maximum!
+
+Portable!
+
+Constructor -> gets called automatically when new instance of class in created!
+
+static -> will allow developer to access class resources (variable, method, block) without creating instance!
+
+Inheritance - > when one class (child/derived) acquires the properties (class variables) and functionality (methods) of another (parent) class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
