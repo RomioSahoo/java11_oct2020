@@ -42,7 +42,9 @@ Constructor -> gets called automatically when new instance of class in created!
 
 static -> will allow developer to access class resources (variable, method, block) without creating instance!
 
-Inheritance - > when one class (child/derived) acquires the properties (class variables) and functionality (methods) of another (parent) class
+Inheritance -> when one class (child/derived) acquires the properties (class variables) and functionality (methods) of another (parent) class
+
+Polymorphism -> it allows to implment same-name function in different ways!
 
 
 
