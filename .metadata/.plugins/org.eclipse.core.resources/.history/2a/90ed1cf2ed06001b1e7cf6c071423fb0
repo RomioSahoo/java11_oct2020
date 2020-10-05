@@ -1,0 +1,22 @@
+package com.example.members;
+
+public class HelloStaticCurrent {
+	
+	public void setVoltage() {
+		System.out.println("Danger - DO Not Touch!!!!!");
+	}
+	
+	public void getVoltage() {
+		System.out.println("Danger - DO Not Touch!!!!!");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HelloStaticCurrent hsc = new HelloStaticCurrent();
+		hsc.getVoltage();
+
+	}
+
+}

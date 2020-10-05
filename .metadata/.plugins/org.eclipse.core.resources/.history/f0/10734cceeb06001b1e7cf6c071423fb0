@@ -1,0 +1,20 @@
+package com.example.constructor;
+
+public class Friend {
+	
+	String name;
+	Integer age;
+	
+	Friend(){
+		System.out.println("In constructor!!!!");
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Friend f = new Friend();
+
+	}
+
+}
