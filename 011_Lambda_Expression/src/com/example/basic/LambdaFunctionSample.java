@@ -1,5 +1,7 @@
 package com.example.basic;
 
+import java.util.ArrayList;
+
 public class LambdaFunctionSample {
 
 	public static void main(String[] args) {
@@ -22,9 +24,21 @@ public class LambdaFunctionSample {
 		 */
 		
 		ParameterizedFunctional pf = value -> value + 10;
-		
-		
 		System.out.println(pf.incrementByTen(20));
+		
+		// lambda expression with multiple parameters!
+		AddTwoWithLambdas al = (n1, n2)-> n1 + n2;
+		
+		System.out.println(al.addTwoNumbers(4, 40));
+		
+		System.out.println("Using lambda expression in foreach:");
+		ArrayList<String> friends = new ArrayList<String>();
+		friends.add("OBB");
+		friends.add("BNP");
+		friends.add("CAS");
+		friends.add("OWIOH");
+		
+		friends.forEach(friend -> System.out.println("# "+ friend + " #" ));
 
 	}
 
