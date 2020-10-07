@@ -10,9 +10,8 @@ public class LambdaFunctionSample {
 		 * Lambda expression - anonymous function which does not belong to any 
 		 * class nor has any name!
 		 */
-		MyInterface msg = ()->{
-			return "Welcome to Lambda Expression!!!!";
-		};
+		MyInterface msg = ()-> "Welcome to Lambda Expression!!!!";
+		
 		
 		System.out.println(msg.welcome());
 		
